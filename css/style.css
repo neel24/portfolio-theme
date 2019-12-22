@@ -1,0 +1,272 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat Light';
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header theming */
+
+header {
+  height: 70vh;
+  width: 100%;
+  background-image: linear-gradient(to right,#f003fc, #0345fc );
+}
+
+.site-name {
+  text-align: center;
+  font-family: 'Montserrat Bold';
+  font-size: 100px;
+  padding-top: 60px;
+  margin-bottom: 15px;
+}
+
+div.site-name a {
+  color: #fff;
+}
+
+li.menu-item a {
+  color: #000;
+  background-color: #fff;
+}
+
+.site-slogan {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #fff;
+}
+
+#block-portfolio-main-menu {
+  text-align: center;
+}
+
+#block-portfolio-main-menu ul {
+  display: inline-flex;
+  margin-top: 150px;
+}
+
+#block-portfolio-main-menu ul li {
+  font-family: Montserrat;
+  font-size: 20px;
+  padding: 40px;
+}
+
+#block-portfolio-main-menu ul li a:link,
+a:visited {
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+#block-portfolio-main-menu ul li a:hover,
+a:active {
+  background-color: red;
+  color: #fff;
+  transition: .6s ease-in;
+}
+
+a.feed-icon {
+  display: none;
+}
+
+/* Content theming */
+
+main {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+h1.page-title {
+  font-family: Montserrat;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+h2 a {
+  color: #000;
+}
+
+h4 {
+  font-family: 'Montserrat Light';
+  font-size: 20px;
+  text-align: left;
+  padding-left: 450px;
+  padding-right: 450px;
+  margin-left: 60px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 75px;
+  margin-bottom: 40px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-right: 100px;
+  padding-left: 30px;
+}
+
+span.field.field--name-title.field--type-string.field--label-hidden {
+  color: #000;
+}
+
+.node-readmore a:link,
+a:visited {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 15px;
+  border: 1.5px solid #0345fc;
+  background-color: #0345fc;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.node-readmore a:hover,
+a:active {
+  background-color: #fff;
+  color: #000;
+  transition: .6s ease-in;
+}
+
+div.node__links {
+  margin-bottom: 100px;
+  margin-top: 80px;
+  padding: 10px;
+}
+
+div.node__submitted {
+  display: none;
+}
+
+div.field__label {
+  display: none;
+}
+
+div.field__item a {
+  display: none;
+}
+
+.comment-forbidden a:link,
+a:visited {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 15px;
+  border: 1.5px solid #0345fc;
+  background-color: #0345fc;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.comment-forbidden a:hover,
+a:active {
+  background-color: #fff;
+  color: #000;
+  transition: .6s ease-in;
+}
+
+div.html {
+  background-color: #e34f26;
+  color: #fff;
+  width: 7%;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 240px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+div.css {
+  background-color: #5dbcd2;
+  color: #fff;
+  width: 6%;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 400px;
+  margin-bottom: 15px;
+}
+
+div.php {
+  background-color: #4f5b93;
+  color: #fff;
+  width: 6%;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 240px;
+  margin-bottom: 15px;
+}
+
+div.drupal {
+  background-color: #0077c0;
+  color: #fff;
+  width: 8%;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 400px;
+  margin-bottom: 15px;
+}
+
+/* Footer theming */
+
+#block-portfolio-powered {
+  background-image: linear-gradient(to right,#f003fc, #0345fc );
+  height: 10vh;
+  width: 100%;
+  padding-top: 100px;
+  text-align: center;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+
+#block-portfolio-powered a {
+  color: #fff;
+}
