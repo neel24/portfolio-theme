@@ -185,11 +185,14 @@ div.node__submitted {
 }
 
 div.field__label {
-  display: none;
+  font-family: Montserrat;
+  font-size: 16px;
+  margin-bottom: 15px;
 }
 
 div.field__item a {
-  display: none;
+  color: #000;
+  text-decoration: underline;
 }
 
 .comment-forbidden a:link,
@@ -216,10 +219,13 @@ a:active {
 div.html {
   background-color: #e34f26;
   color: #fff;
-  width: 7%;
+  width: 14%;
   border-radius: 20px;
-  padding: 10px;
-  margin-left: 240px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 130px;
   margin-bottom: 15px;
   margin-top: 25px;
 }
@@ -227,31 +233,44 @@ div.html {
 div.css {
   background-color: #5dbcd2;
   color: #fff;
-  width: 6%;
+  width: 12%;
   border-radius: 20px;
-  padding: 10px;
-  margin-left: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 250px;
   margin-bottom: 15px;
 }
 
 div.php {
   background-color: #4f5b93;
   color: #fff;
-  width: 6%;
+  width: 12%;
   border-radius: 20px;
-  padding: 10px;
-  margin-left: 240px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 130px;
   margin-bottom: 15px;
 }
 
 div.drupal {
   background-color: #0077c0;
   color: #fff;
-  width: 8%;
+  width: 15%;
   border-radius: 20px;
-  padding: 10px;
-  margin-left: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 250px;
   margin-bottom: 15px;
+}
+
+img.align-center {
+  width: 85%;
 }
 
 /* Footer theming */
@@ -260,6 +279,7 @@ div.drupal {
   background-image: linear-gradient(to right,#f003fc, #0345fc );
   height: 10vh;
   width: 100%;
+  /*margin-top: -200px;*/
   padding-top: 100px;
   text-align: center;
   color: #fff;
